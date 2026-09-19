@@ -3,6 +3,19 @@
 A small fail-closed gate between an LLM agent and the tools it is allowed to call.
 Python standard library only, no dependencies, ~240 lines of production code.
 
+## Why this exists and what proves it
+
+For a reviewer with five minutes. The claim is narrow: a call that goes
+through `run()` reaches only a registered tool, with arguments of the declared
+type that pass the declared predicate, and every refusal is either journaled
+with `fsync` or the JSON says it was not. The proof is not the prose in this
+file — it is three commands under "Run it": 61 tests pass, and the mutation
+probe breaks the code in 49 known ways and requires the suite to catch every
+one (49/49). The logs recorded when this version was accepted are in
+`evidence/`. What the gate does *not* do is listed just as plainly under
+"What is NOT in here": those limits were found by an independent agent told to
+break the code, and they are open.
+
 ## The idea
 
 Most agent "safety" layers filter command strings: a blocklist of `rm -rf`,
