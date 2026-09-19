@@ -1,0 +1,9 @@
+control types_disabled: tests=1 baseline_failures=0 mutant_failures=1
+empty: refused=2
+skip: refused=2
+duplicate: refused=2
+late_external: refused=2
+fresh_trees: runs=2 failures=0
+missing_template: refused=2
+multiple_template: refused=2
+self_test: OK

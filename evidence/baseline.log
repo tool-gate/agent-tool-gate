@@ -1,0 +1,70 @@
+test_before_holds_shared_lock_while_reading (tests.test_audit.AuditTests.test_before_holds_shared_lock_while_reading) ... ok
+test_executable_must_exist (tests.test_audit.AuditTests.test_executable_must_exist) ... ok
+test_new_file_mode (tests.test_audit.AuditTests.test_new_file_mode) ... ok
+test_nonzero_exit_is_unknown (tests.test_audit.AuditTests.test_nonzero_exit_is_unknown) ... ok
+test_read_file_unexpected_name_keyword (tests.test_audit.AuditTests.test_read_file_unexpected_name_keyword) ... ok
+test_read_limit (tests.test_audit.AuditTests.test_read_limit) ... ok
+test_root_must_exist (tests.test_audit.AuditTests.test_root_must_exist) ... ok
+test_timeout_and_unknown_outcome (tests.test_audit.AuditTests.test_timeout_and_unknown_outcome) ... ok
+test_variadic_schema_is_rejected (tests.test_audit.AuditTests.test_variadic_schema_is_rejected) ... ok
+test_write_limit (tests.test_audit.AuditTests.test_write_limit) ... ok
+test_all_exception_classes (tests.test_contract.ContractTests.test_all_exception_classes) ... ok
+test_context_types_and_missing_context (tests.test_contract.ContractTests.test_context_types_and_missing_context) ... ok
+test_hook_error_is_recorded (tests.test_contract.ContractTests.test_hook_error_is_recorded) ... ok
+test_log_failure_still_returns_json (tests.test_contract.ContractTests.test_log_failure_still_returns_json) ... ok
+test_memory_growth_and_show_limit (tests.test_contract.ContractTests.test_memory_growth_and_show_limit) ... memory: calls=80, refusals=80, shown=79, rows=159
+ok
+test_memory_ranking (tests.test_contract.ContractTests.test_memory_ranking) ... ok
+test_tool_keyword_names_do_not_collide (tests.test_contract.ContractTests.test_tool_keyword_names_do_not_collide) ... ok
+test_unserializable_and_nonfinite_results (tests.test_contract.ContractTests.test_unserializable_and_nonfinite_results) ... ok
+test_bound_arguments (tests.test_core.CoreTests.test_bound_arguments) ... ok
+test_constraints (tests.test_core.CoreTests.test_constraints) ... ok
+test_hook_before_execution (tests.test_core.CoreTests.test_hook_before_execution) ... ok
+test_list_snapshot (tests.test_core.CoreTests.test_list_snapshot) ... ok
+test_memory_failure_blocks_execution (tests.test_core.CoreTests.test_memory_failure_blocks_execution) ... ok
+test_only_run_is_exposed (tests.test_core.CoreTests.test_only_run_is_exposed) ... ok
+test_refusal_is_recorded (tests.test_core.CoreTests.test_refusal_is_recorded) ... ok
+test_refusal_raises_inside_boundary (tests.test_core.CoreTests.test_refusal_raises_inside_boundary) ... ok
+test_schema (tests.test_core.CoreTests.test_schema) ... ok
+test_shape (tests.test_core.CoreTests.test_shape) ... ok
+test_types (tests.test_core.CoreTests.test_types) ... ok
+test_none_requires_author_default (tests.test_defaults.DefaultTests.test_none_requires_author_default) ... ok
+test_omitted_defaults_are_checked (tests.test_defaults.DefaultTests.test_omitted_defaults_are_checked) ... {"event": "refusal", "task": "0", "error": "NE_ZNAYU: FailClosedError"}
+{"event": "refusal", "task": "1", "error": "NE_ZNAYU: FailClosedError"}
+{"event": "refusal", "task": "2", "error": "NE_ZNAYU: FailClosedError"}
+ok
+test_argument_grammar (tests.test_instruments.InstrumentTests.test_argument_grammar) ... ok
+test_command_text_is_only_file_data (tests.test_instruments.InstrumentTests.test_command_text_is_only_file_data) ... ok
+test_commands_cannot_select_execution (tests.test_instruments.InstrumentTests.test_commands_cannot_select_execution) ... ok
+test_paths_and_symlinks (tests.test_instruments.InstrumentTests.test_paths_and_symlinks) ... ok
+test_program_allowlist (tests.test_instruments.InstrumentTests.test_program_allowlist) ... ok
+test_read_write_and_program (tests.test_instruments.InstrumentTests.test_read_write_and_program) ... ok
+test_disk_and_lock_until_fsync (tests.test_memory.MemoryTests.test_disk_and_lock_until_fsync) ... ok
+test_two_processes_and_controls (tests.test_memory.MemoryTests.test_two_processes_and_controls) ... ok
+test_annotated_strict_length (tests.test_molchuny.MolchunyTests.test_annotated_strict_length) ... ok
+test_before_does_not_mask_bugs (tests.test_molchuny.MolchunyTests.test_before_does_not_mask_bugs) ... ok
+test_defaults_are_copied_by_snapshot (tests.test_molchuny.MolchunyTests.test_defaults_are_copied_by_snapshot) ... ok
+test_memory_ranking_is_case_insensitive_including_unicode (tests.test_molchuny.MolchunyTests.test_memory_ranking_is_case_insensitive_including_unicode) ... ok
+test_o_nonblock_used_in_read (tests.test_molchuny.MolchunyTests.test_o_nonblock_used_in_read) ... ok
+test_o_nonblock_used_in_run (tests.test_molchuny.MolchunyTests.test_o_nonblock_used_in_run) ... ok
+test_read_uses_utf8 (tests.test_molchuny.MolchunyTests.test_read_uses_utf8) ... ok
+test_regex_requires_exact_match (tests.test_molchuny.MolchunyTests.test_regex_requires_exact_match) ... ok
+test_remember_rejects_nan (tests.test_molchuny.MolchunyTests.test_remember_rejects_nan) ... ok
+test_shown_event_includes_truncated_task (tests.test_molchuny.MolchunyTests.test_shown_event_includes_truncated_task) ... ok
+test_write_uses_utf8 (tests.test_molchuny.MolchunyTests.test_write_uses_utf8) ... ok
+test_atomic_write_failure_and_publication (tests.test_revision.RevisionTests.test_atomic_write_failure_and_publication) ... ok
+test_before_bounds_actual_read_bytes (tests.test_revision.RevisionTests.test_before_bounds_actual_read_bytes) ... ok
+test_deepcopy_hooks_are_not_called (tests.test_revision.RevisionTests.test_deepcopy_hooks_are_not_called) ... ok
+test_effect_then_error_is_unknown_even_if_log_fails (tests.test_revision.RevisionTests.test_effect_then_error_is_unknown_even_if_log_fails) ... ok
+test_memory_outside_data_root (tests.test_revision.RevisionTests.test_memory_outside_data_root) ... ok
+test_predicate_nested_mutation_rejects_without_body (tests.test_revision.RevisionTests.test_predicate_nested_mutation_rejects_without_body) ... ok
+test_retained_predicate_reference_cannot_change_body_data (tests.test_revision.RevisionTests.test_retained_predicate_reference_cannot_change_body_data) ... ok
+test_stop_does_not_attempt_logging (tests.test_revision.RevisionTests.test_stop_does_not_attempt_logging) ... ok
+test_stops_escape_every_stage (tests.test_revision.RevisionTests.test_stops_escape_every_stage) ... ok
+test_tail_boundary_and_corruption_scope (tests.test_revision.RevisionTests.test_tail_boundary_and_corruption_scope) ... ok
+test_task_truncation (tests.test_revision.RevisionTests.test_task_truncation) ... ok
+
+----------------------------------------------------------------------
+Ran 61 tests in 1.354s
+
+OK
