@@ -13,8 +13,8 @@ file — it is three commands under "Run it": 61 tests pass, and the mutation
 probe breaks the code in 49 known ways and requires the suite to catch every
 one (49/49). The logs recorded when this version was accepted are in
 `evidence/`. What the gate does *not* do is listed just as plainly under
-"What is NOT in here": those limits were found by an independent agent told to
-break the code, and they are open.
+"What is NOT in here": those limits were listed by independent reviewer models,
+not by the author, and they are open.
 
 ## The idea
 
@@ -114,9 +114,8 @@ as a pass.
 - **No prompt handling, no model client, no agent loop.** This is the tool
   boundary only.
 
-Known limits are listed here on purpose. They were found by pointing an
-independent agent at the code with instructions to break it, and they are open,
-not fixed.
+Known limits are listed here on purpose. They were listed by independent
+reviewer models, not by the author, and they are open, not fixed.
 
 ## License
 
